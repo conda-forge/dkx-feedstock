@@ -2,6 +2,7 @@ schema_version: 1
 
 context:
   version: "2.0.0"
+  python_min: "3.10"
 
 package:
   name: dkx
@@ -12,7 +13,7 @@ source:
   sha256: 662cc22d56539918fd67d0f706573d275619c7241024d1fe30bb4f5fdc743ee3
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
   python:
@@ -58,5 +59,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - rogeriojorge
     - matthewfeickert
     - RKHashmani
