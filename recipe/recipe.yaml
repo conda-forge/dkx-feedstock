@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.0.0"
+  version: "2.1.0"
   python_min: "3.10"
 
 package:
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/dkx/dkx-${{ version }}.tar.gz
-  sha256: 662cc22d56539918fd67d0f706573d275619c7241024d1fe30bb4f5fdc743ee3
+  sha256: 00055531cafb2afdfacada218eaf0b344f4414a6e3bdadd0bf204dc1282be158
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
   python:
@@ -33,7 +33,7 @@ requirements:
     - h5py
     - netcdf4
     - matplotlib-base
-    - solvax
+    - solvax >=0.13.0
 
 tests:
   - python:
