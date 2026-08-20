@@ -33,7 +33,7 @@ requirements:
     - h5py
     - netcdf4
     - matplotlib-base
-    - solvax
+    - solvax >=0.13.0
 
 tests:
   - python:
