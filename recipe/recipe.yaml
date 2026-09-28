@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   version: "2.5.0"
-  python_min: "3.10"
+  python_min: "3.11"
 
 package:
   name: dkx
@@ -28,12 +28,13 @@ requirements:
   run:
     - python >=${{ python_min }}
     - jax
-    - numpy
+    - numpy >=2.1
     - scipy
     - h5py
     - netcdf4
     - matplotlib-base
-    - solvax >=0.13.0
+    - rich >=13.0
+    - solvax >=0.24.0
 
 tests:
   - python:
