@@ -34,7 +34,7 @@ requirements:
     - netcdf4
     - matplotlib-base
     - rich >=13.0
-    - solvax >=0.24.0
+    - solvax >=0.28.1
 
 tests:
   - python:
