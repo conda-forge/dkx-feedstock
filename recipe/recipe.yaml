@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.12.0"
+  version: "2.13.0"
   python_min: "3.11"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/dkx/dkx-${{ version }}.tar.gz
-  sha256: f4a9900f659483ecc6ba7df9e36f56dcd50a3866924511cffa964507f261f9ed
+  sha256: 8fe5e4a7db264da47ea609bd453303cae04bca2d5e14a84ac561631ad309109a
 
 build:
   number: 0
