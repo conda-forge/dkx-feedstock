@@ -9,7 +9,7 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/d/dkx/dkx-${{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/d/dkx/dkx-${{ version }}.tar.gz
   sha256: 8fe5e4a7db264da47ea609bd453303cae04bca2d5e14a84ac561631ad309109a
 
 build:
