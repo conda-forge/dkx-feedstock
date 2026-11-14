@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.14.0"
+  version: "2.15.0"
   python_min: "3.11"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/d/dkx/dkx-${{ version }}.tar.gz
-  sha256: a28d0db410fdfce0440267257f385111067ab46b2607ed740107007bb1cd63d2
+  sha256: 27b3e08c0730e063b676f44e7efee4424a59b2b8c9b92bfe3ccea9589ed0114e
 
 build:
   number: 0
@@ -34,7 +34,7 @@ requirements:
     - netcdf4
     - matplotlib-base
     - rich >=13.0
-    - solvax >=0.35.0
+    - solvax >=0.35.3
 
 tests:
   - python:
